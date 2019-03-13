@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="@string/orientation"
+        android:summary="@string/orientation_summary"
+        android:title="@string/orientation_title"/>
+    <Preference
+        android:key="@string/newCard"
+        android:summary="@string/newCard_summary"
+        android:title="@string/newCard_title"/>
+
+</PreferenceScreen>

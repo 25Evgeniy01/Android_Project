@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/buttonroom">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="10dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Уровень:"
+        android:fontFamily="@font/freakomix"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:fontFamily="@font/freakomix"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Карточки:"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/freakomix"
+        android:text="Ограничения"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ходов:"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Время:"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonmain"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="5"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="@string/startgame"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/freakomix"
+            android:textSize="50sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

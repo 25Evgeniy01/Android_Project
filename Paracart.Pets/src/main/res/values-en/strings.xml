@@ -1,0 +1,55 @@
+<resources>
+
+    <!--Main activity-->
+    <string name="startgame">Start</string>
+    <string name="settingsname">Settings</string>
+    <string name="myroomname">My room</string>
+    <string name="recordname">Records</string>
+
+    <!--My room-->
+    <string name="maincard">Текущая карта</string>
+    <string name="level">Уровень</string>
+    <string name="count">Счёт</string>
+    <string name="hearts">Жизни</string>
+    <string name="allcards">Всего карт</string>
+    <string name="mycollection">Моя коллекция</string>
+    <string name="points">Очков</string>
+
+    <string name="app_name">Paracart.Pets</string>
+
+
+    <string name="orientation">orientation</string>
+    <string name="orientation_summary">On portrait orientation</string>
+    <string name="orientation_title">Orientation</string>
+
+    <string name="newCard">newCard</string>
+    <string name="newCard_summary">Restart level?</string>
+    <string name="newCard_title">Change card on level?</string>
+
+    <string name="PREFERENCE_LEVEL">preference level</string>
+    <string name="PREFERENCE_FOR_LEVEL">preference for level</string>
+
+    <string name="ORIENT_SETT">orient settings</string>
+    <string name="ORIENT_SETT_SAVED">orient settings saved</string>
+    <string name="ORIENTATIONBOLEAN">orintation bolean</string>
+    <string name="RECORD_FOR_LEVEL">record for level</string>
+    <string name="PREFERENCE_CARD">preference card</string>
+    <string name="PREFERENCE_SUBCARD">preference subcard</string>
+
+    <!-- Fonts -->
+    <string name="font_freakomix">fonts/freakomix.ttf</string>
+    <!-- <string name="font_roboto_regular">fonts/Roboto-Regular.ttf</string> -->
+
+    <declare-styleable name="ButtonStrokeText">
+        <attr name="textStrokeColor" format="color" />
+        <attr name="textStrokeWidth" format="dimension" />
+    </declare-styleable>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_advert">Advert</string>
+    <string name="credits1">Credits</string>
+    <string name="credits2">Used sounds and music by James Shaw @audionautix.com,</string>
+    <string name="credits3">sounds and music by http://www.freesfx.co.uk</string>
+    <string name="facebookID">1635428066547052</string>
+</resources>

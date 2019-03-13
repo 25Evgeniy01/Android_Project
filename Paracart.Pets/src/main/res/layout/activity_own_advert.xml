@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#54cdfd"
+    tools:context="com.feezrook.Paracart.Pets.OwnAdvertActivity">
+
+
+
+    <ImageButton
+        android:id="@+id/bannerFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonmain"
+        app:srcCompat="@drawable/cars"
+
+        />
+    <ImageButton
+        android:id="@+id/download1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/close"
+
+        android:layout_marginTop="188dp"
+        android:layout_marginLeft="192dp"
+        android:background="@drawable/buttonmain"
+        app:srcCompat="@drawable/down"
+
+        />
+
+    <ImageButton
+        android:id="@+id/bannerSecond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bannerFirst"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/buttonmain"
+        app:srcCompat="@drawable/clubs"
+
+        />
+    <ImageButton
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/buttonmain"
+        app:srcCompat="@drawable/closead" />
+
+    <ImageButton
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bannerFirst"
+
+        android:layout_marginTop="208dp"
+        android:layout_marginLeft="192dp"
+        android:background="@drawable/buttonmain"
+        app:srcCompat="@drawable/down"
+
+        />
+
+
+</RelativeLayout>

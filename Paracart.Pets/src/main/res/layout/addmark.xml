@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/buttonroom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonmain"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="5"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="Позже"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/freakomix"
+            android:textSize="45sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/freakomix"
+        android:text="Ты готов поделиться впечатлениями об игре и рассказать какой твой любимый Пет?"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonmain"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="5"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="Да"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/freakomix"
+            android:textSize="45sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

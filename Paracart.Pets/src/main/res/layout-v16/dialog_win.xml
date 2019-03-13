@@ -1,0 +1,202 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/buttonroom">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/freakomix"
+        android:text="Поздравляем!"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/freakomix"
+        android:text="Вы набрали"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:gravity="start" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text=" очков"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:gravity="start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView171"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="Ваш бонус"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/textView181"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="test"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="11dp"
+            android:gravity="start" />
+        <TextView
+            android:id="@+id/textView191"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text=" очков"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textSize="11dp"
+            android:gravity="start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/textView172"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="Итого"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorWhite"
+            android:textSize="12dp"
+            android:gravity="end" />
+
+        <TextView
+            android:id="@+id/textView182"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="test"
+
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="11dp"
+            android:gravity="start" />
+        <TextView
+            android:id="@+id/textView192"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text=" очков"
+            android:textAlignment="textStart"
+            android:textColor="@color/colorWhite"
+            android:textSize="11dp"
+            android:gravity="start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/freakomix"
+            android:text="Общий счет:"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:fontFamily="@font/freakomix"
+            android:textColor="@color/colorWhite"
+            android:textSize="15dp"
+            android:textAlignment="textStart"
+            android:gravity="start" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonmain"
+            android:shadowColor="@color/colorBlack"
+            android:shadowDx="5"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:text="Дальше"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/freakomix"
+            android:textSize="45sp"
+            />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
